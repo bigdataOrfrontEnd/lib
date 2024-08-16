@@ -1,0 +1,25 @@
+{
+  "name": "rootlibld",
+  "version": "1.0.0",
+  "private": false,
+  "workspaces": [
+    "packages/*"
+  ],
+  "npmClient": "npm",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "verifyAccess": false
+    }
+  },
+  "devDependencies": {
+    "@types/css-modules": "^1.0.5",
+    "@types/node": "^22.3.0",
+    "less": "^4.2.0",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "start": "cd packages/react-components && npm run storybook"
+  }
+}

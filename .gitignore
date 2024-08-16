@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Lerna workspace files
+packages/*/node_modules/
+
+# Log files
+logs/
+*.log
+
+# Build directories
+packages/*/dist/
+packages/*/build/
+
+# System files
+.DS_Store
+.env
+
+*storybook.log
